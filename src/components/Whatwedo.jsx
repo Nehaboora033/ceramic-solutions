@@ -8,7 +8,7 @@ const Whatwedo = () => {
         <>
             <div className='max-w-[1140px] mx-auto px-3'>
                 <div className='pt-[174px] pb-[140px] '>
-                    <SubHeading subheadingText={"What we do"} subHeading='text-center mb-[56px]' />
+                    <SubHeading subheadingText={"What we do"} subHeadingClass='text-center mb-[56px]' />
                     <div className='grid grid-cols-3 gap-6'>
                         {WHAT_WE_DO_DATA.map((item, index) => {
                             return (
@@ -18,12 +18,10 @@ const Whatwedo = () => {
                                     <p className='font-normal text-base mb-6'>{item.description} </p>
                                     <div className='flex items-center gap-2.5'>
                                         <a href="" className={'text-base font-semibold text-[#FF0000] font-jakarta whitespace-nowrap'}>{item.link} </a>
-                                        <img src={pointer} alt="pointer" />
+                                        <a href=""><img src={pointer} alt="pointer" /></a>
                                     </div>
                                 </div>
-                            )
-                        })
-                        }
+                            )})}
                     </div>
                 </div>
             </div>

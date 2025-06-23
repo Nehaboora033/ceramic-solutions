@@ -9,7 +9,15 @@ import tiling from '../assets/images/png/tiling.png'
 import largeTiling from '../assets/images/png/largetiling.png'
 import complaintShower from '../assets/images/png/complaintshower.png'
 
+import { PHONE, LIKE, STAR } from './icons'
 
+import profileFirst from '../assets/images/svg/profilefirst.svg'
+import profileSecond from '../assets/images/svg/profilesecond.svg'
+import profileThird from '../assets/images/svg/profilethird.svg'
+import profileFourth from '../assets/images/svg/profilefourth.svg'
+import sliderRating from '../assets/images/svg/slider-rating.svg'
+
+import { CURLYCHECK } from './icons'
 
 export const NAV = [
     {
@@ -91,5 +99,78 @@ export const WHAT_WE_DO_DATA = [
         name: "Fireplace Tiling",
         description: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
         link: "Learn more",
+    },
+]
+
+export const WHY_CHOOSE_US_DATA = [
+    {
+        svg: STAR,
+        heading: "High Quality Materials",
+        description: "Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird.",
+    },
+    {
+        svg: LIKE,
+        heading: "Durability with Warranty",
+        description: "Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird.",
+    },
+    {
+        svg: PHONE,
+        heading: "24/7 Support",
+        description: "Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird.",
+    },
+
+]
+
+export const CUSTOMER_SLIDER = [
+    {
+        image: profileFirst,
+        name: "Mark T.",
+        profession: "Fitness enthusiast",
+        rating: sliderRating,
+        about: "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are."
+    },
+    {
+        image: profileSecond,
+        name: "Mark T.",
+        profession: "Fitness enthusiast",
+        rating: sliderRating,
+        about: "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are."
+
+    },
+    {
+        image: profileThird,
+        name: "Mark T.",
+        profession: "Fitness enthusiast",
+        rating: sliderRating,
+        about: "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are."
+
+    },
+    {
+        image: profileFourth,
+        name: "Mark T.",
+        profession: "Fitness enthusiast",
+        rating: sliderRating,
+        about: "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are."
+
+    },
+
+]
+
+export const HOW_IT_WORKS_DATA = [
+    {
+        image:CURLYCHECK,
+        heading: "Contact us",
+        description: "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
+
+    },
+    {
+        image: CURLYCHECK,
+        heading: "Get a Qoute",
+        description: "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
+    },
+    {
+        image: CURLYCHECK,
+        heading: "Get your Work Done",
+        description: "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
     },
 ]
