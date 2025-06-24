@@ -17,7 +17,14 @@ import profileThird from '../assets/images/svg/profilethird.svg'
 import profileFourth from '../assets/images/svg/profilefourth.svg'
 import sliderRating from '../assets/images/svg/slider-rating.svg'
 
+import facebook from '../assets/images/svg/facebook.svg'
+import instagram from '../assets/images/svg/instagram.svg'
+import linkedin from '../assets/images/svg/linkedin.svg'
+import twitter from '../assets/images/svg/twitter.svg'
+
 import { CURLYCHECK } from './icons'
+
+import { LOCATION } from './icons'
 
 export const NAV = [
     {
@@ -158,7 +165,7 @@ export const CUSTOMER_SLIDER = [
 
 export const HOW_IT_WORKS_DATA = [
     {
-        image:CURLYCHECK,
+        image: CURLYCHECK,
         heading: "Contact us",
         description: "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
 
@@ -173,4 +180,96 @@ export const HOW_IT_WORKS_DATA = [
         heading: "Get your Work Done",
         description: "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
     },
+]
+
+export const OUR_BLOG_DATA = [
+    {
+        image: Kitchen,
+        heading: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
+        link: "Learn more",
+
+    },
+
+]
+
+export const SERVICES_DATA = [
+    {
+        svg: LOCATION,
+        location: "Knoxville",
+    },
+    {
+        svg: LOCATION,
+        location: "Sevierville",
+    },
+    {
+        svg: LOCATION,
+        location: "Maynardville",
+    },
+
+]
+
+export const DATA = [
+    {
+        svg: LOCATION,
+        location: "Knoxville",
+    },
+    {
+        svg: LOCATION,
+        location: "Sevierville",
+    },
+]
+
+export const HANDLE = [
+    {
+        image: facebook,
+    },
+    {
+        image: instagram,
+    },
+    {
+        image: twitter,
+    },
+    {
+        image: linkedin,
+    },
+]
+
+export const FOOTER_LINKS = [
+    {
+        name: "links",
+        link: ["Home", "About Us", "Services", "Showcase"]
+    },
+    {
+        name: "legal",
+        link: ["Terms Of Use", "Privacy Policy", "Cookie Policy"]
+    },
+    {
+        name: "product",
+        link: ["Take Tour", "Live Chat", "Reveiws"]
+    },
+
+]
+
+export const FAQ_DATA = [
+    {
+        question: "Lörem ipsum koda astrobel: sutaveligen.",
+        answer: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade",
+    },
+    {
+        question: "Rodod bänera viliga",
+        answer: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade",
+    },
+    {
+        question: "Pregigt primasofi dede facebooka: förutom",
+        answer: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade",
+    },
+    {
+        question: "Ipsum koda astrobel: sutaveligen. Rodod bänera viliga.",
+        answer: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade",
+    },
+    {
+        question: "Rodod bänera viliga. Pregigt primasofi dede facebooka",
+        answer: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade",
+    },
+
 ]
