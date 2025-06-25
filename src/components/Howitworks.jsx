@@ -26,7 +26,7 @@ const Howitworks = () => {
                             </div>
                         ))}
                         <div className='flex gap-6 mt-9 min-[410px]:flex-row flex-col'>
-                            <Button buttonText={"Get a Quote"} />
+                            <Button buttonText={"Get a Quote"}  />
                             <Button buttonText={"View Tile Visualizer"} buttonClass='!bg-white !text-[#FF0000] border-[#FF0000] border '  />
                         </div>
                     </div>
