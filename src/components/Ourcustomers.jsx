@@ -44,7 +44,7 @@ const Ourcustomers = () => {
                 <div className='flex gap-6 justify-center mt-8'>
                     {COMPANIES_REVIEW.map((item, index) => {
                         return (
-                            <div key={index} className='px-4 max-w-[229px] pt-[8.33px] pb-[6px]  bg-white rounded-2xl flex gap-[10px] border-[0.83px] border-[#DCDCDC]'>
+                            <div data-aos="zoom-in" key={index} className='px-4 max-w-[229px] pt-[8.33px] pb-[6px]  bg-white rounded-2xl flex gap-[10px] border-[0.83px] border-[#DCDCDC]'>
                                 <img src={item.image} alt="image" className='size-[40px] block my-auto' />
                                 <div>
                                     <p className='font-normal text-[12px] font-manrope whitespace-nowrap '>{item.name}</p>

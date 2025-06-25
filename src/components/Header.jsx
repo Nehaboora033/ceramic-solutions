@@ -24,13 +24,13 @@ const Header = () => {
     <>
       <div className='bg-center bg-cover bg-no-repeat py-6' style={{ backgroundImage: `url(${backgroundImage})` }}>
 
-        <nav className={`fixed top-6 w-full z-20 ${scrolled ? '' : 'bg-transparent'}`}>
+        <nav data-aos="zoom-in-down" className={`fixed top-6 w-full z-20 ${scrolled ? '' : 'bg-transparent'}`}>
           <div className={`max-w-[1140px] mx-auto px-3 bg-white rounded-3xl p-4 flex items-center justify-between`}>
             <img src={logo} alt="logo" className='cursor-pointer' />
             <ul className={`flex gap-[28px] max-lg:justify-center max-lg:items-center max-lg:gap-15 z-9  top-0 max-lg:flex-col lg:flex-row transition-[right] duration-300  max-lg:h-full max-sm:w-full max-lg:w-[75%] max-lg:bg-white max-lg:fixed ${state === "show" ? 'right-0' : 'max-lg:right-[-100%]'}`}>
               {NAV.map((item, index) => {
                 return (
-                  <div key={index} className=''>
+                  <div key={index}  >
                     <li>
                       <a
                         href="#"
@@ -43,7 +43,7 @@ const Header = () => {
               })}
             </ul>
             <div className='flex items-center gap-3'>
-              <button className='bg-[#FF0000] hover:scale-105 px-5 py-[14px] whitespace-nowrap  max-sm:w-[50px] max-sm:h-[50px] max-sm:p-0 max-sm:flex max-sm:items-center max-sm:justify-center max-w-[186px] rounded-[50%] sm:rounded-[56px] text-white font-bold text-base flex gap-2.5 cursor-pointer'>
+              <button data-aos="fade-up" className='bg-[#FF0000] hover:scale-105 px-5 py-[14px] whitespace-nowrap  max-sm:w-[50px] max-sm:h-[50px] max-sm:p-0 max-sm:flex max-sm:items-center max-sm:justify-center max-w-[186px] rounded-[50%] sm:rounded-[56px] text-white font-bold text-base flex gap-2.5 cursor-pointer'>
                 <CALL />
                 <span className='max-sm:hidden'>(865) 621-1717</span>
               </button>

@@ -14,7 +14,7 @@ const Services = () => {
                         SERVICES_DATA.map((item, index) => {
                             const Icon = item.svg;
                             return (
-                                <div key={`${repeatIndex}-${index}`} className='rounded-3xl shadow-slider p-6 w-full'>
+                                <div data-aos="zoom-in" key={`${repeatIndex}-${index}`} className='rounded-3xl shadow-slider p-6 w-full'>
                                     <div className='flex gap-3 items-center'>
                                         <div className='bg-[#FF0000] rounded-[50%] size-[48px] p-2 flex items-center justify-center'>
                                             <Icon />
@@ -28,7 +28,7 @@ const Services = () => {
                 </div>
                 <div className='flex gap-6 mt-6 justify-center min-[580px]:flex-row flex-col '>
                     {DATA.map((item, index) => (
-                        <div key={index} className='rounded-3xl shadow-slider p-6 w-full min-[850px]:max-w-[364px]'>
+                        <div data-aos="zoom-in" key={index} className='rounded-3xl shadow-slider p-6 w-full min-[850px]:max-w-[364px]'>
                             <div className='flex gap-3 items-center'>
                                 <div className='bg-[#FF0000] rounded-[50%] size-[48px] p-2 flex items-center justify-center'>
                                     <item.svg />

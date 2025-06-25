@@ -10,12 +10,12 @@ const Howitworks = () => {
             <div className='max-w-[1140px] px-3 mx-auto my-[140px] '>
                 <div className='flex mx-[-12px] items-center gap-6 min-[970px]:gap-0  justify-between min-[970px]:flex-row flex-col '>
                     <div className='min-[970px]:w-[45%] w-full px-3'>
-                        <img src={image} alt="image" className='block mx-auto' />
+                        <img data-aos="fade-up-right" src={image} alt="image" className='block mx-auto' />
                     </div>
                     <div className='min-[970px]:w-[51%] w-full px-3'>
-                        <SubHeading subheadingText={"How it works?"} subHeadingClass='text-center min-[970px]:text-start' descriptionText={"Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. "} descriptionClass='min-[970px]:max-w-[592px] w-full mt-5 mb-8 min-[970px]:text-start text-center' />
+                        <SubHeading subheadingText={"How it works?"}  descriptionText={"Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. "} descriptionClass='min-[970px]:max-w-[592px] w-full mt-5 mb-8' />
                         {HOW_IT_WORKS_DATA.map((item, index) => (
-                            <div key={index} className='p-4 shadow-how mb-4 rounded-3xl'>
+                            <div data-aos="zoom-in-up"  key={index} className='p-4 shadow-how mb-4 rounded-3xl'>
                                 <div className='flex gap-5'>
                                     <span className='size-[32px]'><item.image /></span>
                                     <div>

@@ -23,8 +23,8 @@ const Footer = () => {
                         </div>
                         <div className='flex gap-2 mt-4 '>
                             {HANDLE.map((item, index) => (
-                                <a href="" key={index} className='hover:-translate-y-1'>
-                                    <img src={item.image} alt="image" />
+                                <a  href="" key={index} className='hover:-translate-y-1'>
+                                    <img  src={item.image} alt="image" />
                                 </a>
                             ))}
                         </div>
