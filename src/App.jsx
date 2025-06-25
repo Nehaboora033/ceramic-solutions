@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import './App.css'
 import FAQ from './components/FAQ'
@@ -12,17 +15,25 @@ import Whatwedo from './components/Whatwedo'
 import Whychooseus from './components/whychooseus'
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 120,
+    });
+  }, []);
+
 
 
   return (
     <>
       <Header />
-      <Whatwedo />
-      <Whychooseus />
-      <Ourcustomers />
-      <Howitworks />
-      <Interested />
-      <Ourblog />
+      {/* <Whatwedo /> */}
+      {/* <Whychooseus /> */}
+      {/* <Ourcustomers /> */}
+      {/* <Howitworks /> */}
+      {/* <Interested /> */}
+      {/* <Ourblog /> */}
       <FAQ />
       <Services />
       <Footer />

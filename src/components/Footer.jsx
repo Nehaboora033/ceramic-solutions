@@ -10,12 +10,12 @@ const Footer = () => {
     return (
         <>
             <div className='max-w-[1140px] mx-auto px-3 mt-[120px] '>
-                <div className='flex justify-between'>
+                <div className='flex justify-between min-[1050px]:flex-row flex-col min-[1050px]:gap-0 gap-7'>
                     <div>
                         <img src={logo} alt="logo" />
                         <div className='flex gap-2 mt-5'>
                             <img src={email} alt="svg" />
-                            <a href="mailto:help@Dealzip.com">help@Dealzip.com </a>
+                            <a href="mailto:help@Dealzip.com" className='font-normal text-base font-jakarta'>help@Dealzip.com </a>
                         </div>
                         <div className='flex gap-2 mt-4'>
                             <img src={call} alt="svg" />
@@ -23,43 +23,42 @@ const Footer = () => {
                         </div>
                         <div className='flex gap-2 mt-4 '>
                             {HANDLE.map((item, index) => (
-                                <a href="" key={index} className='hover:translate-y-1'>
+                                <a href="" key={index} className='hover:-translate-y-1'>
                                     <img src={item.image} alt="image" />
                                 </a>
                             ))}
                         </div>
                     </div>
-                    <div className='flex gap-[76px] max-w-[832px]'>
-                        {FOOTER_LINKS.map((item, index) => (
-                            <div key={index} className=''>
-                                <ul>
-                                    <li className='font-semibold text-xl font-jakarta capitalize mb-5 text-[#1C2329]'>
-                                        {item.name}
-                                    </li>
-                                    {item.link.map((link, i) => (
-                                        <li key={i} className='mb-3'>
-                                            <a
-                                                href="#"
-                                                className="relative inline-block text-transparent bg-gradient-to-r from-[#1B2228] to-[#1B2228] bg-clip-text transition-all duration-500 ease-in-out hover:from-[#FF0000] hover:to-[#FF0000]"
-                                            >
-                                                {link}
-                                            </a>
 
+                    <div className='flex min-[850px]:flex-row flex-col min-[850px]:gap-[76px] gap-5  max-w-[832px] w-full'>
+                        <div className='flex min-[450px]:gap-[76px] gap-[35px]  '>
+                            {FOOTER_LINKS.map((item, index) => (
+                                <div key={index} className=''>
+                                    <ul>
+                                        <li className='font-semibold min-[370px]:text-xl text-lg font-jakarta capitalize mb-5 text-[#1C2329]'>
+                                            {item.name}
                                         </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        ))}
+                                        {item.link.map((link, i) => (
+                                            <li key={i} className='mb-3'>
+                                                <a href="#" className="relative transition-all duration-300 ease-in-out hover:text-[#FF0000] font-jakarta font-normal min-[370px]:text-base text-sm  whitespace-nowrap">{link}
+                                                </a>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            ))}
+                        </div>
                         {/* newletter part  */}
-                        <ul>
-                            <li className='font-semibold text-xl font-jakarta capitalize'>Newsletter</li>
-                            <li className='font-normal text-base font-jakarta capitalize mt-5'>Stay up to date</li>
-                            <div className='relative mt-3'>
-                                <input type="email" placeholder='Your email' className='max-w-[340px] rounded-[62px] pl-4 pr-[182px]  h-[74px] border border-[#D9D9D9] placeholder:text-[#81848A]' />
-                                <Button buttonText={"Subscribe"} buttonClass='py-[16px] px-[40px] font-semibold max-w-[160px] text-noraml absolute right-[9px] top-[7px]' />
-                            </div>
-                        </ul>
+                        <div>
+                            <p className='font-semibold  min-[370px]:text-xl text-lg   font-jakarta capitalize'>Newsletter</p>
+                            <p className='mt-5'><a href="" className='font-normal min-[370px]:text-base text-sm  font-jakarta capitalize relative transition-all duration-300 ease-in-out hover:text-[#FF0000]'>Stay up to date</a></p>
+                            <label for="email" className='relative'>
+                                <input type="email" id="email" placeholder='Your email' className='sm:max-w-[340px] max-w-[300px] mt-3 rounded-[62px] pl-4 sm:pr-[182px] pr-[160px]  h-[74px] border border-[#D9D9D9] placeholder:text-[#81848A]' />
+                                <Button buttonText={"Subscribe"} buttonClass='py-[16px] px-[40px] font-semibold max-w-[140px] sm:max-w-[160px] text-noraml absolute top-1/2 right-[10px] -translate-y-1/2 ' />
+                            </label>
+                        </div>
                     </div>
+
                 </div>
             </div>
             {/* Copyright */}

@@ -7,5 +7,9 @@
     --shadow: 0px 0px 12px 3px #B6B6B640;
     --shadow-slider: 0px 2px 44px 3px #5757571A;
     --shadow-how: 0px 1px 28px 1px #4747471A;
-   
+
 }
+
+/* *{
+    outline: 1px red solid;
+} */

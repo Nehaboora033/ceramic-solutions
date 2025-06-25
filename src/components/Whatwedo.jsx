@@ -12,7 +12,7 @@ const Whatwedo = () => {
                     <div className='grid grid-cols-3 gap-6'>
                         {WHAT_WE_DO_DATA.map((item, index) => {
                             return (
-                                <div key={index} className='max-w-[364px] max-h-[470px] rounded-3xl border border-[#E0E0E0] p-6  hover:shadow hover:border-0'>
+                                <div key={index} className='max-w-[364px] max-h-[470px] rounded-3xl border border-[#E0E0E0] p-6  hover:shadow hover:border-0 cursor-pointer'>
                                     <img src={item.image} alt="image" />
                                     <p className='font-semibold text-2xl font-jakarta mt-6 mb-3 '>{item.name}</p>
                                     <p className='font-normal text-base mb-6'>{item.description} </p>
