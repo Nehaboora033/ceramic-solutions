@@ -31,8 +31,8 @@ function App() {
       {/* <Whatwedo /> */}
       {/* <Whychooseus /> */}
       {/* <Ourcustomers /> */}
-      {/* <Howitworks /> */}
-      {/* <Interested /> */}
+      <Howitworks />
+      <Interested />
       <Ourblog />
       <FAQ />
       <Services />
