@@ -125,7 +125,6 @@ export const WHY_CHOOSE_US_DATA = [
         heading: "24/7 Support",
         description: "Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird.",
     },
-
 ]
 
 export const CUSTOMER_SLIDER = [
@@ -158,9 +157,7 @@ export const CUSTOMER_SLIDER = [
         profession: "Fitness enthusiast",
         rating: sliderRating,
         about: "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, I'm a believer. The quality is top-notch, and they've become an integral part of my workout routine. I can't believe how versatile they are."
-
     },
-
 ]
 
 export const HOW_IT_WORKS_DATA = [
@@ -187,9 +184,7 @@ export const OUR_BLOG_DATA = [
         image: Kitchen,
         heading: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
         link: "Learn more",
-
     },
-
 ]
 
 export const SERVICES_DATA = [
@@ -247,7 +242,6 @@ export const FOOTER_LINKS = [
         name: "product",
         link: ["Take Tour", "Live Chat", "Reveiws"]
     },
-
 ]
 
 export const FAQ_DATA = [

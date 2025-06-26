@@ -14,7 +14,7 @@ import Ourblog from './components/Ourblog'
 import Ourcustomers from './components/Ourcustomers'
 import Services from './components/Services'
 import Whatwedo from './components/Whatwedo'
-import Whychooseus from './components/whychooseus'
+import Whychooseus from './components/Whychooseus'
 
 function App() {
   useEffect(() => {
@@ -24,9 +24,6 @@ function App() {
       offset: 120,
     });
   }, []);
-
-
-
   return (
     <>
       <Header />
@@ -39,8 +36,6 @@ function App() {
       <FAQ />
       <Services />
       <Footer />
-
-
     </>
   )
 }

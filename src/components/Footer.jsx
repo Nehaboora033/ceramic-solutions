@@ -30,7 +30,6 @@ const Footer = () => {
                             ))}
                         </div>
                     </div>
-
                     <div className='flex min-[850px]:flex-row flex-col min-[850px]:gap-[76px] gap-5  max-w-[832px] w-full'>
                         <div className='flex min-[450px]:gap-[76px] gap-[35px]  '>
                             {FOOTER_LINKS.map((item, index) => (
@@ -59,12 +58,10 @@ const Footer = () => {
                             </label>
                         </div>
                     </div>
-
                 </div>
             </div>
             {/* Copyright */}
             <div>
-
                 <div className="bg-[linear-gradient(90deg,_rgba(22,22,22,0)_0%,_#696969_51.56%,_rgba(22,22,22,0)_100%)] h-[1px] w-full mt-[45px]" />
                 <div className='py-4'>
                     <p className='font-normal text-base text-center text-[#1B2228]'>Copyright 2024 ceramicsolutions.com all rights reserved</p>
@@ -73,7 +70,6 @@ const Footer = () => {
 
 
         </>
-    )
-}
+    )}
 
 export default Footer

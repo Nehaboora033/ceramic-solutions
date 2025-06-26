@@ -19,12 +19,8 @@ const Ourblog = () => {
                             </div>
                         </div>
                     ))}
-
-
-                    
                 </div>
             </div>
-
         </>
     )
 }

@@ -75,13 +75,9 @@ const Ourcustomers = () => {
                                     <p className='font-normal text-[12px] font-manrope whitespace-nowrap'>{item.data} </p>
                                 </div>
                             </div>
-                        )
-                    })}
-
+                        )})}
                 </div>
             </div>
-
-
             <Slider {...settings} >
                 {CUSTOMER_SLIDER.map((item, index) => (
                     <div key={index} className='p-6 rounded-3xl shadow-slider my-[56px] '>
@@ -97,10 +93,8 @@ const Ourcustomers = () => {
                     </div>
                 ))}
             </Slider>
-
         </>
-    )
-}
+    )}
 
 export default Ourcustomers
 

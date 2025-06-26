@@ -39,8 +39,7 @@ const Header = () => {
                       </a>
                     </li>
                   </div>
-                )
-              })}
+                ) })}
             </ul>
             <div className='flex items-center gap-3'>
               <button data-aos="fade-up" className='bg-[#FF0000] hover:scale-105 px-5 py-[14px] whitespace-nowrap  max-sm:w-[50px] max-sm:h-[50px] max-sm:p-0 max-sm:flex max-sm:items-center max-sm:justify-center max-w-[186px] rounded-[50%] sm:rounded-[56px] text-white font-bold text-base flex gap-2.5 cursor-pointer'>
@@ -76,8 +75,7 @@ const Header = () => {
                       <p className='font-normal text-[12px] font-manrope whitespace-nowrap'>{item.data} </p>
                     </div>
                   </div>
-                )
-              })}
+                ) })}
             </div>
             <div data-aos="zoom-in" className='flex gap-6'>
               <img src={tile} alt="tile" className='max-w-[80px] max-h-[80px] w-full' />
