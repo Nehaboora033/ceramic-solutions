@@ -2,7 +2,7 @@ import ratingStar from '../assets/images/svg/rating.svg'
 import google from '../assets/images/svg/google.svg'
 import star from '../assets/images/svg/star.svg'
 
-import Kitchen from '../assets/images/png/Kitchen.png'
+import kitchen from '../assets/images/png/kitchen.png'
 import shower from '../assets/images/png/shower.png'
 import flooring from '../assets/images/png/flooring.png'
 import tiling from '../assets/images/png/tiling.png'
@@ -66,7 +66,7 @@ export const COMPANIES_REVIEW = [
 
 export const WHAT_WE_DO_DATA = [
     {
-        image: Kitchen,
+        image:kitchen,
         name: "Kitchen Backsplash",
         description: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
         link: "Learn more",

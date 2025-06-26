@@ -1,7 +1,8 @@
 import React from 'react'
-import { WHAT_WE_DO_DATA } from '../utils/helper'
+
 import SubHeading from './common/SubHeading'
 import pointer from '../assets/images/svg/pointer.svg'
+import { WHAT_WE_DO_DATA } from '../utils/helper'
 
 const Whatwedo = () => {
     return (
