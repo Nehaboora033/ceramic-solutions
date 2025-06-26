@@ -1,7 +1,7 @@
 import React from 'react'
 import SubHeading from './common/SubHeading'
-import { OUR_BLOG_DATA } from '../utils/helper'
 import pointer from '../assets/images/svg/pointer.svg'
+import { OUR_BLOG_DATA } from '../utils/helper'
 
 const Ourblog = () => {
     return (

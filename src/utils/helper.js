@@ -181,7 +181,7 @@ export const HOW_IT_WORKS_DATA = [
 
 export const OUR_BLOG_DATA = [
     {
-        image: Kitchen,
+        image:kitchen,
         heading: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
         link: "Learn more",
     },
