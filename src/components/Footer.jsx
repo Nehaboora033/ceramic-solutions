@@ -7,6 +7,7 @@ import Button from './common/Button'
 
 
 const Footer = () => {
+    const date = new Date();
     return (
         <>
             {/* footer section */}
@@ -24,8 +25,8 @@ const Footer = () => {
                         </div>
                         <div className='flex gap-2 mt-4 '>
                             {HANDLE.map((item, index) => (
-                                <a  href="" key={index} className='hover:-translate-y-1'>
-                                    <img  src={item.image} alt="image" />
+                                <a href="" key={index} className='hover:-translate-y-1'>
+                                    <img src={item.image} alt="image" />
                                 </a>
                             ))}
                         </div>
@@ -52,8 +53,8 @@ const Footer = () => {
                         <div>
                             <p className='font-semibold  min-[370px]:text-xl text-lg   font-jakarta capitalize'>Newsletter</p>
                             <p className='mt-5'><a href="" className='font-normal min-[370px]:text-base text-sm  font-jakarta capitalize relative transition-all duration-300 ease-in-out hover:text-[#FF0000]'>Stay up to date</a></p>
-                            <label  className='relative'>
-                                <input data-aos="fade-down" type="email"  placeholder='Your email' className='sm:max-w-[340px] max-w-[300px] mt-3 rounded-[62px] pl-4 sm:pr-[182px] pr-[160px]  h-[74px] border border-[#D9D9D9] placeholder:text-[#81848A]'/>
+                            <label className='relative'>
+                                <input data-aos="fade-down" type="email" placeholder='Your email' className='sm:max-w-[340px] max-w-[300px] mt-3 rounded-[62px] pl-4 sm:pr-[182px] pr-[160px]  h-[74px] border border-[#D9D9D9] placeholder:text-[#81848A]' />
                                 <Button buttonText={"Subscribe"} buttonClass='py-[16px] px-[40px] font-semibold max-w-[140px] sm:max-w-[160px] text-noraml absolute top-1/2 right-[10px] -translate-y-1/2 ' />
                             </label>
                         </div>
@@ -64,12 +65,13 @@ const Footer = () => {
             <div>
                 <div className="bg-[linear-gradient(90deg,_rgba(22,22,22,0)_0%,_#696969_51.56%,_rgba(22,22,22,0)_100%)] h-[1px] w-full mt-[45px]" />
                 <div className='py-4'>
-                    <p className='font-normal text-base text-center text-[#1B2228]'>Copyright 2024 ceramicsolutions.com all rights reserved</p>
+                    <p className='font-normal text-base text-center text-[#1B2228]'>Copyright {date.getFullYear()} ceramicsolutions.com all rights reserved</p>
                 </div>
             </div>
 
 
         </>
-    )}
+    )
+}
 
 export default Footer
