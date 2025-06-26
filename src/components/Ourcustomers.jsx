@@ -9,14 +9,14 @@ import "slick-carousel/slick/slick-theme.css"
 
 const Ourcustomers = () => {
     const settings = {
-        dots: false,
+        dots: true,
         speed: 400,
         slidesToShow: 3.6,
         sliddesToScroll: 1,
         arrows: false,
         infinite: true,
-        autoplay: false,
-        autoplaySpeed: 0,
+        autoplay: true,
+        autoplaySpeed: 700,
         responsive: [
             {
                 breakpoint: 1180, //max-width:1180px
