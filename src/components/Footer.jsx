@@ -9,6 +9,7 @@ import Button from './common/Button'
 const Footer = () => {
     return (
         <>
+            {/* footer section */}
             <div className='max-w-[1140px] mx-auto px-3 mt-[120px] '>
                 <div className='flex justify-between min-[1050px]:flex-row flex-col min-[1050px]:gap-0 gap-7'>
                     <div>
