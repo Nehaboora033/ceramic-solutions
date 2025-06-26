@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import './App.css'
 import FAQ from './components/FAQ'
@@ -30,7 +32,7 @@ function App() {
       <Header />
       <Whatwedo />
       <Whychooseus />
-      {/* <Ourcustomers /> */}
+      <Ourcustomers />
       <Howitworks />
       <Interested />
       <Ourblog />

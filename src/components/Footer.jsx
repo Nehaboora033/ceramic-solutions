@@ -52,8 +52,8 @@ const Footer = () => {
                         <div>
                             <p className='font-semibold  min-[370px]:text-xl text-lg   font-jakarta capitalize'>Newsletter</p>
                             <p className='mt-5'><a href="" className='font-normal min-[370px]:text-base text-sm  font-jakarta capitalize relative transition-all duration-300 ease-in-out hover:text-[#FF0000]'>Stay up to date</a></p>
-                            <label for="email" className='relative'>
-                                <input type="email" id="email" placeholder='Your email' className='sm:max-w-[340px] max-w-[300px] mt-3 rounded-[62px] pl-4 sm:pr-[182px] pr-[160px]  h-[74px] border border-[#D9D9D9] placeholder:text-[#81848A]' />
+                            <label  className='relative'>
+                                <input data-aos="fade-down" type="email"  placeholder='Your email' className='sm:max-w-[340px] max-w-[300px] mt-3 rounded-[62px] pl-4 sm:pr-[182px] pr-[160px]  h-[74px] border border-[#D9D9D9] placeholder:text-[#81848A]'/>
                                 <Button buttonText={"Subscribe"} buttonClass='py-[16px] px-[40px] font-semibold max-w-[140px] sm:max-w-[160px] text-noraml absolute top-1/2 right-[10px] -translate-y-1/2 ' />
                             </label>
                         </div>

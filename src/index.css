@@ -13,3 +13,9 @@
 /* *{
     outline: 1px red solid;
 } */
+
+.slick-slide>div {
+    padding-left: 12px;
+    padding-right:12px;
+   
+}
