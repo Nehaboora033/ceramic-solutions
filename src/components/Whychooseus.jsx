@@ -1,7 +1,7 @@
 import React from 'react'
 import SubHeading from './common/SubHeading'
 import { WHY_CHOOSE_US_DATA } from '../utils/helper'
-import image from '../assets/images/png/chooseus-img.png'
+import image from '../assets/images/webp/chooseus-img.webp'
 import Button from './common/Button'
 
 

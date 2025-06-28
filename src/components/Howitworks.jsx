@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../assets/images/png/how-image.png'
+import image from '../assets/images/webp/how-image.webp'
 import SubHeading from './common/SubHeading'
 import { HOW_IT_WORKS_DATA } from '../utils/helper'
 import Button from './common/Button' 

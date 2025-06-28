@@ -2,12 +2,12 @@ import ratingStar from '../assets/images/svg/rating.svg'
 import google from '../assets/images/svg/google.svg'
 import star from '../assets/images/svg/star.svg'
 
-import kitchen from '../assets/images/png/kitchen.png'
-import shower from '../assets/images/png/shower.png'
-import flooring from '../assets/images/png/flooring.png'
-import tiling from '../assets/images/png/tiling.png'
-import largeTiling from '../assets/images/png/largetiling.png'
-import complaintShower from '../assets/images/png/complaintshower.png'
+import kitchen from '../assets/images/webp/kitchen.webp'
+import shower from '../assets/images/webp/shower.webp'
+import flooring from '../assets/images/webp/flooring.webp'
+import tiling from '../assets/images/webp/tiling.webp'
+import largeTiling from '../assets/images/webp/largetiling.webp'
+import complaintShower from '../assets/images/webp/complaintshower.webp'
 
 import { PHONE, LIKE, STAR } from './icons'
 
@@ -66,7 +66,7 @@ export const COMPANIES_REVIEW = [
 
 export const WHAT_WE_DO_DATA = [
     {
-        image:kitchen,
+        image: kitchen,
         name: "Kitchen Backsplash",
         description: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
         link: "Learn more",
@@ -181,7 +181,7 @@ export const HOW_IT_WORKS_DATA = [
 
 export const OUR_BLOG_DATA = [
     {
-        image:kitchen,
+        image: kitchen,
         heading: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
         link: "Learn more",
     },
