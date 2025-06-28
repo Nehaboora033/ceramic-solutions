@@ -21,7 +21,7 @@ const Footer = () => {
                         </div>
                         <div className='flex gap-2 mt-4'>
                             <img src={call} alt="svg" />
-                            <p className='font-normal text-base font-jakarta'>+1 234 456 678 89</p>
+                            <a href="tel:+1 234 456 678 89" className='font-normal text-base font-jakarta'>+1 234 456 678 89</a>
                         </div>
                         <div className='flex gap-2 mt-4 '>
                             {HANDLE.map((item, index) => (
@@ -62,16 +62,11 @@ const Footer = () => {
                 </div>
             </div>
             {/* Copyright */}
-            <div>
-                <div className="bg-[linear-gradient(90deg,_rgba(22,22,22,0)_0%,_#696969_51.56%,_rgba(22,22,22,0)_100%)] h-[1px] w-full mt-[45px]" />
-                <div className='py-4'>
-                    <p className='font-normal text-base text-center text-[#1B2228]'>Copyright {date.getFullYear()} ceramicsolutions.com all rights reserved</p>
-                </div>
+            <div className="bg-[linear-gradient(90deg,_rgba(22,22,22,0)_0%,_#696969_51.56%,_rgba(22,22,22,0)_100%)] h-[1px] w-full mt-[45px]" />
+            <div className='py-4'>
+                <p className='font-normal text-base text-center text-[#1B2228]'>Copyright {date.getFullYear()} ceramicsolutions.com all rights reserved</p>
             </div>
-
-
         </>
     )
 }
-
 export default Footer

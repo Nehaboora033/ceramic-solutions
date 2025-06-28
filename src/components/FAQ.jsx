@@ -6,8 +6,7 @@ import { FAQ_ARROW } from '../utils/icons'
 const FAQ = () => {
     const [isOpen, SetIsOpen] = useState(null);
     return (
-        <>
-            <div className='max-w-[1140px] mx-auto px-3 mb-[140px]'>
+            <div className='max-w-[1140px] mx-auto px-3 mt-[140px] '>
                 <SubHeading subheadingText={"Frequently Asked Questions"} subHeadingClass='text-center' descriptionText={"Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade"} descriptionClass='mt-5 max-w-[592px] text-center mx-auto mb-[56px]' />
                 <div className='flex flex-col items-center'>
                     {FAQ_DATA.map((item, index) => (
@@ -21,7 +20,6 @@ const FAQ = () => {
                     ))}
                 </div>
             </div>
-        </>
     )
 }
 

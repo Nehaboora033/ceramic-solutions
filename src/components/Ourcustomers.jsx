@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css"
 
 const Ourcustomers = () => {
     const settings = {
-        dots: true,
+        dots: false,
         speed: 400,
         slidesToShow: 3.6,
         sliddesToScroll: 1,
@@ -34,6 +34,7 @@ const Ourcustomers = () => {
                 breakpoint: 768,  //max-width:768px
                 settings: {
                     slidesToShow: 2.2,
+                    dots:true,
                 },
             },
             {
@@ -43,13 +44,13 @@ const Ourcustomers = () => {
                 },
             },
             {
-                breakpoint: 540,   //max-width:640px
+                breakpoint: 540,   //max-width:540px
                 settings: {
                     slidesToShow: 1.5,
                 },
             },
             {
-                breakpoint: 500,   //max-width:640px
+                breakpoint: 500,   //max-width:500px
                 settings: {
                     slidesToShow: 1,
                 },

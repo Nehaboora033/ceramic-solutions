@@ -5,8 +5,7 @@ import { OUR_BLOG_DATA } from '../utils/helper'
 
 const Ourblog = () => {
     return (
-        <>
-            <div className='max-w-[1140px] px-3 mx-auto my-[140px]'>
+            <div className='max-w-[1140px] px-3 mx-auto mt-[140px]'>
                 <SubHeading subheadingText={"Our Blog"} subHeadingClass='text-center' descriptionText={"Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade"} descriptionClass='max-w-[592px] text-center mx-auto mt-5 mb-[56px]' />
                 <div  className='grid min-[890px]:grid-cols-3 min-[650px]:grid-cols-2 gap-6'>
                     {[...Array(3)].map((_, index) => (
@@ -21,7 +20,6 @@ const Ourblog = () => {
                     ))}
                 </div>
             </div>
-        </>
     )
 }
 

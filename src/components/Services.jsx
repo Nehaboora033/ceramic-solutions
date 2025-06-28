@@ -5,8 +5,7 @@ import { DATA, SERVICES_DATA } from '../utils/helper'
 
 const Services = () => {
     return (
-        <>
-            <div className='max-w-[1140px] px-3 mx-auto'>
+            <div className='max-w-[1140px] px-3 mx-auto mt-[140px]'>
                 <SubHeading subheadingText={"We provide services in these areas"} subHeadingClass='max-w-[592px]' descriptionText={"Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade"} descriptionClass='mt-5 max-w-[592px] mb-[56px]' />
                 <div className='grid min-[850px]:grid-cols-3 min-[580px]:grid-cols-2 gap-6'>
                     {Array(6).fill(null).flatMap((_, repeatIndex) =>
@@ -37,9 +36,6 @@ const Services = () => {
                     ))}
                 </div>
             </div>
-
-
-        </>
     )
 }
 

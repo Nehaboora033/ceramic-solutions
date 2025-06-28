@@ -6,14 +6,13 @@ import { WHAT_WE_DO_DATA } from '../utils/helper'
 
 const Whatwedo = () => {
     return (
-        <>
             <div className='max-w-[1140px] mx-auto px-3'>
-                <div className='pt-[174px] pb-[140px] '>
+                <div className='mt-[174px]  '>
                     <SubHeading subheadingText={"What we do?"} subHeadingClass='text-center mb-[56px]' />
                     <div className='grid min-[880px]:grid-cols-3 min-[590px]:grid-cols-2 lg:gap-6 gap-5'>
                         {WHAT_WE_DO_DATA.map((item, index) => {
                             return (
-                                <div data-aos="zoom-in" key={index} className='rounded-3xl border border-[#E0E0E0] p-6  hover:shadow hover:border-0 cursor-pointer'>
+                                <div data-aos="zoom-in" key={index} className='rounded-3xl outline outline-[#E0E0E0] p-6  hover:shadow hover:outline-transparent cursor-pointer'>
                                     <img src={item.image} alt="image" className='w-full' />
                                     <p className='font-semibold lg:text-2xl text-xl font-jakarta mt-6 mb-3 whitespace-nowrap '>{item.name}</p>
                                     <p className='font-normal text-base mb-6'>{item.description} </p>
@@ -26,7 +25,6 @@ const Whatwedo = () => {
                     </div>
                 </div>
             </div>
-        </>
     )
 }
 
