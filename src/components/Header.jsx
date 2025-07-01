@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import logo from '../assets/images/svg/logo.svg'
 import { NAV } from '../utils/helper'
 import { CALL } from '../utils/icons'
-import Button from './common/Button'
 
 const Header = () => {
   const [state, setIsOpen] = useState(null);
@@ -17,21 +16,19 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <nav data-aos="zoom-in-down" className={`fixed top-6 w-full z-20 `}>
+    <nav  className={`fixed top-6 w-full z-20 `}>
       <div className={`max-w-[1140px] mx-auto px-3 bg-white rounded-3xl p-4 flex items-center justify-between ${scrolled ? 'shadow-slider' : 'bg-transparent'}`}>
         <img src={logo} alt="logo" className='cursor-pointer' />
         <ul className={`flex gap-[28px] max-lg:justify-center max-lg:items-center max-lg:gap-15 z-9  top-0 max-lg:flex-col lg:flex-row transition-[right] duration-300  max-lg:h-full max-sm:w-full max-lg:w-[75%] max-lg:bg-white max-lg:fixed ${state === "show" ? 'right-0' : 'max-lg:right-[-100%]'}`}>
           {NAV.map((item, index) => {
             return (
-              <div key={index}  >
-                <li>
-                  <a
-                    href="#"
-                    className="font-normal text-base font-jakarta transition-all duration-300 ease-in-out hover:text-[#FF0000] " >
-                    {item.name}
-                  </a>
-                </li>
-              </div>
+              <li key={index}>
+                <a
+                  href="#"
+                  className="font-normal text-base font-jakarta transition-all duration-300 ease-in-out hover:text-[#FF0000] " >
+                  {item.name}
+                </a>
+              </li>
             )
           })}
         </ul>
